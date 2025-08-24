@@ -1,12 +1,84 @@
 # Cartoonify-Image-Using-opencv-Python
-The Cartoonify Image using OpenCV project is a computer vision application that transforms ordinary photographs into cartoon-like images. The main goal is to give images a fun, artistic, and simplified appearance similar to hand-drawn cartoons or illustrations. This is achieved using a combination of image processing techniques in Python with the help of OpenCV and NumPy libraries.
+This project transforms any real-world image into a cartoon-style image using Python and OpenCV.
+It applies a combination of edge detection, image smoothing, and color quantization techniques to give photos a cartoonish look.
 
-The process begins by reading the input image and converting it into grayscale to reduce complexity. A median blur is then applied to remove noise while keeping important structures intact. After that, edge detection is performed using adaptive thresholding to capture the prominent outlines of objects in the image. Parallelly, the original image is passed through a bilateral filter, which smoothens regions of similar color while preserving edges, creating a soft and cartoon-like color palette. Finally, the smooth color image is combined with the edge mask, resulting in a cartoonified version of the input.
+🚀 Features
 
-This project is lightweight, easy to implement, and serves as a great introduction to digital image processing concepts such as edge detection, filtering, and color quantization. It can be further extended to work with live video streams or webcam feeds, making it possible to create real-time cartoon effects. Apart from being a fun project, it also demonstrates how computer vision techniques can be applied in creative and artistic fields.
+Upload an image using a file dialog (EasyGUI).
 
-The Cartoonify Image using OpenCV project successfully demonstrates how computer vision and image processing techniques can be applied to transform real-world images into cartoon-like representations. By using a combination of grayscale conversion, blurring, edge detection, and bilateral filtering, the project produces outputs that resemble hand-drawn illustrations. This project not only provides a fun and creative application but also helps in understanding important concepts in digital image processing. It is lightweight, easy to implement, and can be used as a foundation for more advanced image transformation applications.
+Convert the image into a cartoon effect with OpenCV.
 
-The Output for the project is the Cartoonified Image with the different stages where picture goes under transformation
+Display original and cartoon images side by side.
+
+Save the cartoonified image for later use.
+
+Simple and lightweight project, great for beginners in Computer Vision.
+
+🛠️ Technologies Used
+
+Python 3.x
+
+OpenCV (cv2) – image processing
+
+NumPy – array and matrix operations
+
+Matplotlib – visualization
+
+EasyGUI – file selection dialog
+
+Pillow (PIL) – image saving
+
+Installation
+
+Clone the repository or copy the project files, then install dependencies using:
+
+pip install -r requirements.txt
+
+
+Contents of requirements.txt:
+
+opencv-python
+numpy
+matplotlib
+easygui
+Pillow
+
+▶️ How to Run
+
+Open the project folder in VS Code (or terminal).
+
+Run the script:
+
+python new.py
+
+
+A file dialog will open → Select an image from your computer.
+
+The cartoonified image will be generated and displayed.
+
+Save the result if you want.
+
+📂 Project Structure
+📁 Cartoonify-Image
+│── new.py                  # Main Python script
+│── requirements.txt        # Dependencies
+│── haarcascade_frontalface_default.xml   # Haarcascade file (optional, if face detection is used)
+│── README.md               # Project documentation
+
+🎨 Example Output
+
+Original Image → Cartoonified Image
+
+(Add sample before/after images here if available)
+
+📌 Future Enhancements
+
+Add webcam support for real-time cartoonification.
+
+Create a Flask web app to upload and cartoonify images online.
+
+Add different cartoon styles and filters.
+
+A fun mini-project to explore Computer Vision and Image Processing.
 
 ![Image](https://github.com/user-attachments/assets/6018fd12-1d0e-4eb9-8fb8-5d03271f7042)
