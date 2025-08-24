@@ -6,3 +6,7 @@ The process begins by reading the input image and converting it into grayscale t
 This project is lightweight, easy to implement, and serves as a great introduction to digital image processing concepts such as edge detection, filtering, and color quantization. It can be further extended to work with live video streams or webcam feeds, making it possible to create real-time cartoon effects. Apart from being a fun project, it also demonstrates how computer vision techniques can be applied in creative and artistic fields.
 
 The Cartoonify Image using OpenCV project successfully demonstrates how computer vision and image processing techniques can be applied to transform real-world images into cartoon-like representations. By using a combination of grayscale conversion, blurring, edge detection, and bilateral filtering, the project produces outputs that resemble hand-drawn illustrations. This project not only provides a fun and creative application but also helps in understanding important concepts in digital image processing. It is lightweight, easy to implement, and can be used as a foundation for more advanced image transformation applications.
+
+The Output for the project is the Cartoonified Image with the different stages where picture goes under transformation
+
+![Image](https://github.com/user-attachments/assets/6018fd12-1d0e-4eb9-8fb8-5d03271f7042)
